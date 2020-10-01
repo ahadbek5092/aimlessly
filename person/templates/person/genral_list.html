@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+{% load static %}
+{% load bootstrap4 %}
+{% block genral %}
+{% if object_list %}
+    <ol>
+    {% for genral in genral_list %}
+        <li><a  href="{{ genral.get_absolute_url }}">{{ genral.name|upper }}</a></li>
+    {% endfor %}
+    </ol>
+{% endif %}
+    <a href="create"><img src="{% static 'image/add.png'%}" alt="add" width="30px" height="30px"></a>
+    <a href="../"><img src="{% static 'image/back.png' %}" alt="home" width="30px" height="30px"></a>
+
+{% endblock genral %}

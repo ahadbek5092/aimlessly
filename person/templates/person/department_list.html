@@ -1,0 +1,24 @@
+{% extends 'index.html' %}
+{% block depart %}
+<h3 class="alert-success">Department list </h3>
+    {% if object_list %}
+        <table class="table-striped">
+        <th>
+            <td>Department</td>
+            <td>Kod</td>
+        </th>
+        <ol>
+
+            {% for foo in object_list %}
+                <tr>
+                    <td><li></li></td>
+                    <td><a href="">{{ foo.pod }}</a></td>
+                    <td><a href="">{{ foo.kod }}</a></td>
+                </tr>
+            {% endfor %}
+
+        </ol>
+
+        </table>
+    {% endif %}
+{% endblock depart%}

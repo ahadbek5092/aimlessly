@@ -1,0 +1,21 @@
+{% extends 'index.html' %}
+
+   {% block genral_detail %}
+   {% if genral %}
+        <ul>
+        {% for foo in genral %}
+            <li><h3>{{ foo.name }}</h3></li>
+            <h4><a href="list" class="fa fa-list">List</a></h4>
+            <h4><a href="update" class="fa fa-address-book">Update</a></h4>
+            <h4><a href="delete" class="fa fa-cut">Delete</a></h4>
+            <h4><a href="../" class="fa fa-home">Home</a></h4>
+        {% endfor %}
+        </ul>
+   {% else %}
+        <h3>sorry man</h3>
+    {% endif %}
+
+
+
+   {% endblock genral_detail %}
+

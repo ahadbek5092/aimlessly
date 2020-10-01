@@ -1,0 +1,11 @@
+{% include 'index.html' %}
+{% block content %}
+<h3>Plan production</h3>
+    <ul>
+        {% for list in object_list %}
+            <li><a href="">{{ list.name }} </a></li>
+        {% endfor %}
+    </ul>
+
+
+{% endblock content %}

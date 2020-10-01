@@ -1,0 +1,6 @@
+{% include 'index.html' %}
+{% load bootstrap4 %}
+<form action="" method="post">{% csrf_token %}
+    {% bootstrap_form form %}
+    <input type="submit" value="Update">
+</form>

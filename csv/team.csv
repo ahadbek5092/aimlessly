@@ -1,0 +1,86 @@
+name;url;group
+VS#1 (NEW BODY) A-SM;1;11
+Dimensional audit A-SM;2;11
+VS#1 (OLD BODY) A-SM;3;11
+VS#2 (PAINT) A-SMENA;4;11
+VS#1 (NEW BODY) B-SM;5;12
+Dimensional audit B-SM;6;12
+VS#1 (OLD BODY) B-SM;7;12
+VS#2 (PAINT) B-SMENA;8;12
+Dimensional audit D-SM;9;13
+VS#1 (OLD BODY) D-SM;10;13
+VS#2 (PAINT) D-SMENA;11;13
+VS#3/4 (TRIM CHASSIS) А-см.;12;14
+VS#5 1-LINE (FIN.INSP) A-SM;13;14
+VS#5 2-LINE (FIN.INSP) A-SM;14;14
+FIT.INSP/UNDER BODY A-sm.;15;14
+PRE CARE A-sm.;16;14
+IRC A-SM;17;14
+SHOWER TEST А-см.;18;14
+"Участок RECARE ""S&R"" A-sm.";19;14
+CNG;20;14
+VS#3/4 (TRIM CHASSIS) В-см.;21;15
+VS#5 1-LINE (FIN.INSP) B-SM;22;15
+VS#5 2-LINE (FIN.INSP) B-SM;23;15
+FIT.INSP/UNDER BODY B-sm.;24;15
+PRE CARE B-sm.;25;15
+IRC B-SM;26;15
+SHOWER TEST B-см.;27;15
+"Участок RECARE ""S&R"" B-sm.";28;15
+VS#3/4 (TRIM CHASSIS) D-см.;29;16
+VS#5 1-LINE (FIN.INSP) D-SM;30;16
+FIT.INSP/UNDER BODY D-sm.;31;16
+PRE CARE D-sm.;32;16
+IRC D-SM;33;16
+SHOWER TEST D-см.;34;16
+"Участок RECARE ""S&R"" D-sm.";35;16
+Св. цех №1 (IMPROVEMENT С-см.)   ;36;65
+Св. цех №1 (IMPROVEMENT A-см.)   ;37;65
+Св. цех №1 (IMPROVEMENT B-см.)   ;38;65
+Св. цех №1 (IMPROVEMENT D-см.)   ;39;65
+"Св. цех №1. Уч. ""Подсчёт"" A-см";40;66
+"Св. цех №1. Уч. ""Подсчёт"" B-см";41;66
+"Св. цех №1. Уч. ""Подсчёт"" D-см";42;66
+Свар-1. Уч. REPAIR (IQS) A-см.;43;67
+Свар-1. Уч. REPAIR (IQS) B-см.;44;67
+Свар-1. Уч. REPAIR (IQS) D-см.;45;67
+Свар-1. Уч. REPAIR   A-см.;46;75
+Св-1. Уч. REP (Регулировка) A-см;47;75
+"Свар-1. Уч. ""Ремонт""(Регулировка)";48;75
+Св-1. Уч. REP (PANGEM) A-см.;49;75
+Свар-1. Уч. REPAIR   B-см.;50;76
+Св-1. Уч. REP (Регулировка) B-см;51;76
+Св-1. Уч. REP (PANGEM) B-см.;52;76
+Свар-1. Уч. REPAIR   D-см.;53;77
+Св-1. Уч. REP (Регулировка) D-см;54;77
+Св-1. Уч. REP (PANGEM) D-см.;55;77
+Св.цех №1 (NEXIA R3 MB / UB A-см);56;78
+Св.цех №1 (NEXIA R3 SIDE BODY. A-см);57;78
+Св.цех №1 (NEXIA R3 SUB A-см);58;78
+Св.цех №1 (NEXIA R3 CLOSURE A-см);59;78
+Св.цех №1 (NEXIA R3 MB / UB B-см);60;79
+Св.цех №1 (NEXIA R3 SIDE BODY. B-см);61;79
+Св.цех №1 (NEXIA R3 SUB B-см);62;79
+Св.цех №1 (NEXIA R3 CLOSURE B-см);63;79
+Св.цех №1 (NEXIA R3 MB / UB D-см);64;80
+Св.цех №1 (NEXIA R3 SIDE BODY. D-см);65;80
+Св.цех №1 (NEXIA R3 SUB D-см);66;80
+Св.цех №1 (NEXIA R3 CLOSURE D-см);67;80
+Свар. цех №1 (GENTRA SUB) A;68;84
+Свар. цех №1 (GENTRA MAIN BODY) A;69;84
+Свар. цех №1 (GENTRA SIDY BODY) A;70;84
+Свар. цех №1 (GENTRA CLOSURE) A;71;84
+Свар. цех №1 (GENTRA SUB) B;72;85
+Свар. цех №1 (GENTRA MAIN BODY) B;73;85
+Свар. цех №1 (GENTRA SIDY BODY) B;74;85
+Свар. цех №1 (GENTRA CLOSURE) B;75;85
+"Сбор. лин.№1 ""А"" см.  ";76;156
+"Сбор. лин.№1 ""B"" см.    ";77;156
+"Сбор. лин.№1 ""D"" см.    ";78;156
+"Сборочная линия №2  ""А"" смена   ";79;157
+" Сборочная линия №2  ""B"" смена   ";80;157
+"Сборочная линия №3 (""Ремонт и комплектация"") ""А"" см.";81;158
+"Сборочная линия №3 (""Ремонт и комплектация"") ""B"" см.";82;158
+"Сборочная линия №3 (""Ремонт и комплектация"") ""D"" см.";83;158
+Группа учёта оснавных материалов;84;200
+Группа учёта вспомогательных материалов;85;200

@@ -1,0 +1,33 @@
+{% include 'index.html' %}
+{% load bootstrap4form %}
+{% block rersoncon %}
+    <form method="get">
+    {{ filter.form|bootstrap4form }}
+        <input type="submit" value="Filter"></br>
+    <p></p>
+    <table class="container-fluid table table-bordered table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>Pod</th>
+            <th>Kod</th>
+            <th >Kat</th>
+            <th>FIO</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for obj in filter.qs %}
+
+        <tr>
+        <td > {{ obj.pod}}</td>
+        <td > {{ obj.kod }}</td>
+        <td > {{ obj.kat }}</td>
+        <td > {{ obj.fio  }}</td>
+        </tr>
+
+        
+
+    {% endfor %}
+    </tbody>
+    </table>
+    </form>
+{% endblock rersoncon %}
